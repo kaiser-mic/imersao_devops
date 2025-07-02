@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
-from schemas import Curso
+from imersao_devops.schemas import Curso
 from models import Curso as ModelCurso
 from database import get_db
 

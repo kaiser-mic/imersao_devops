@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List, Union
-from schemas import Aluno
+from imersao_devops.schemas import Aluno
 from models import Aluno as ModelAluno
 from database import get_db
 
