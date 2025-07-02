@@ -18,3 +18,4 @@ EXPOSE 8000
 # O host 0.0.0.0 permite que a aplicação seja acessível externamente ao contêiner
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000",  "--reload"]
 #MARVEL
+#Ellis
